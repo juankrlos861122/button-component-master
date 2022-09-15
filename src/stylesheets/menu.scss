@@ -1,0 +1,57 @@
+@import './variables.scss';
+
+header {
+  width: 20%;
+  height: 100vh;
+
+  background-color:#FAFBFD;
+
+  >h2 {
+    margin: 48px 0 122px 20%;
+
+    font-family: $font-Poppins;
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 2rem;
+    color: #090F31;
+
+    >span{
+      color: #F7542E;
+    }
+  }
+  
+  nav {
+    margin-inline-start: 20%;
+    height: auto;
+
+    font-family: $font-Noto-Sans-JP;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2rem;
+    
+    
+    ul {
+      .item4 {
+        &>a{
+          color: #090F31;
+          font-weight: 700;
+        }
+      }
+
+      >li {
+        list-style: none;
+        margin-block-end: 24px;
+
+        a {
+          font-family: $font-Noto-Sans-JP;
+          font-size: 1.4rem;
+          font-weight: 500;
+          line-height: 2rem;
+          color: #9E9E9E;
+
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
